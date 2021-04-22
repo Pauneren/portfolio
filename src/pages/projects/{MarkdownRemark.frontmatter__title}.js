@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { frontmatter__title }, data }) => {
-  console.log(data.project.projectObject)
 
   const projectTitle = data.project.projectObject.title
   const projectDescription = data.project.projectObject.description
