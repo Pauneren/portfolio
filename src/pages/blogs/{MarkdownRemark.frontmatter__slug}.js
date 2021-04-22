@@ -1,14 +1,14 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import ReactMarkdown from "react-markdown"
-import SEO from "../../components/Seo"
+import Seo from "../../components/Seo"
 
 const BlogTemplate = ({ pageContext: { frontmatter__slug }, data }) => {
   const { title, description } = data.blog.blogObject
   const content = data.blog.content
   return (
     <>
-      <SEO title={title} description={description} />
+      <Seo title={title} description={description} />
       <section className="blog-template">
         <div className="section-center">
           <article className="blog-content">
