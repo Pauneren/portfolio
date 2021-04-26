@@ -35,9 +35,13 @@ const Blog = () => {
     <>
       <Seo title="Blog" />
       <main>
-        <section className="blog-page">
+        <section className="blog-page ">
+         
+       
           <Blogs blogs={blogList} title="blog" />
+          
         </section>
+      
       </main>
     </>
   )

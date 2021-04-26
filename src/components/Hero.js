@@ -6,23 +6,28 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
   return (
-    <header className="hero">
-      <div className="dot"></div>
-      <section className="section-center hero-center">
-        <article className="hero-info">
+    <header className="hero ">
+      <div className="dot10 "></div>
+    
+
+      <section className="section-center hero-center ">
+        <article className="hero-info  ">
+        <div className="dot2"></div>
           <div>
-            <div className="underline"></div>
+            <div className="underline  "></div>
             <h1>i'm paula</h1>
             <h4>freelance web and mobile UI/UX Designer</h4>
             <Link to="/contact" className="btn">
               contact me
             </Link>
             <div className="social-links">
+          
               {socialLinks.map(link => {
                 return (
                   <a href={link.url} key={link.id} className="social-link">
                     {link.icon}
                   </a>
+                 
                 )
               })}
             </div>
