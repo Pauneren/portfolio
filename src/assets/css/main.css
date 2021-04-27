@@ -1195,4 +1195,9 @@ left: 20%;
 
   }
 
+  .hero-img{
+    visibility:hidden;
+
+  }
+
 }
