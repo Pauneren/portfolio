@@ -10,7 +10,7 @@ const Navbar = ({ toggleSidebar }) => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <h2 className="pauladev">PaulaDev</h2>
+          <h2 className="pauladev">Pauneren</h2>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight />
           </button>
